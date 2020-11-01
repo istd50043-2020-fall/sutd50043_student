@@ -1,7 +1,10 @@
 import sys
-from pyspark import SparkContext, SparkConf
-conf = SparkConf().setAppName("Wordcount Application")
-sc = SparkContext(conf=conf)
+
+from pyspark.sql import SparkSession
+
+sparkSession = SparkSession.builder.appName("Word Count App").getOrCreate()
+sc = sparkSession.sparkContext
+
 
 hdfs_nn = "localhost"
 text_file = sc.textFile("hdfs://%s:9000/input/" % (hdfs_nn))
