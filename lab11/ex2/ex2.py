@@ -1,13 +1,19 @@
-class Tree:
-    def __init__(self,value,left=None,right=None):
-        self.value = value
-        self.left = left
-        self.right = right
-    def __str__(self):
-        return "{value:%s, left:%s, right:%s}" % (str(self.value), str(self.left), str(self.right))
-    
-mytree = Tree(17, Tree(11, Tree(4), Tree(13)), Tree(5, None, Tree(30)))
+from mapreduce import *
 
-# TODO: define fmap(f,t)
+def read_db(filename):
+    db = []
+    with open(filename, 'r') as f:
+        for l in f:
+            db.append(l)
+    f.close()
+    return db
+            
+test_db = read_db("./data/price.csv")
 
-# TODO: define freduce(f,t,acc)
+# TODO: FIXME
+# the result should contain a list of suppliers, 
+# with the average sale price for all items by this supplier.
+result = []
+
+for supplier,avg_price in result:
+    print(supplier, avg_price)
