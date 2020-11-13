@@ -351,7 +351,7 @@
     {
       "text": "%md \n\n## TODO 1\n\n **[CODE CHANGE REQUIRED]**\n\nComplete the definition of the following function `load_points_into_rdd`, which load the tsv data into an RDD given the namenode (e.g. `127.0.0.1:9000`) and the HDFS path (e.g. `kmeans/input`) \n\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\n```python\nnamenode \u003d \"127.0.0.1:9000\"\n\ndef load_points_into_rdd(namenode, path): # TODO\n    return sc.textFile(\"hdfs://%s/%s\" % (namenode,path)).map(lambda ln:ln.strip().split(\"\\t\")).map(lambda l:(float(l[0]), float(l[1])))\n```",
       "user": "anonymous",
-      "dateUpdated": "2020-11-13 14:04:44.382",
+      "dateUpdated": "2020-11-13 15:27:22.669",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -386,8 +386,8 @@
       "jobName": "paragraph_1605147591352_1569433523",
       "id": "paragraph_1604303126395_1074291387",
       "dateCreated": "2020-11-12 10:19:51.352",
-      "dateStarted": "2020-11-13 14:04:34.115",
-      "dateFinished": "2020-11-13 14:04:34.126",
+      "dateStarted": "2020-11-13 15:27:22.669",
+      "dateFinished": "2020-11-13 15:27:22.676",
       "status": "FINISHED"
     },
     {
@@ -510,9 +510,9 @@
       "status": "FINISHED"
     },
     {
-      "text": "%md \n\n## TODO 2\n **[CODE CHANGE REQUIRED]**\nComplete the following function `euc_dist` which compute the euclidean distance between two points\n\n\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\n$$\neucdist((x_1,y_1),(x_2,y_2)) \u003d \\sqrt{ (x_1 - x_2)^2 + (y_1 - y_2)^2  }\n$$\n",
+      "text": "%md \n\n## TODO 2\n **[CODE CHANGE REQUIRED]**\n \nComplete the following function `euc_dist` which compute the euclidean distance between two points\n\n\n$$\neucdist((x_1,y_1),(x_2,y_2)) \u003d \\sqrt{ (x_1 - x_2)^2 + (y_1 - y_2)^2  }\n$$\n",
       "user": "anonymous",
-      "dateUpdated": "2020-11-13 14:04:50.180",
+      "dateUpdated": "2020-11-13 15:32:27.590",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -537,7 +537,7 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eTODO 2\u003c/h2\u003e\n\u003cp\u003e\u003cstrong\u003e[CODE CHANGE REQUIRED]\u003c/strong\u003e\u003cbr /\u003e\nComplete the following function \u003ccode\u003eeuc_dist\u003c/code\u003e which compute the euclidean distance between two points\u003c/p\u003e\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\u003cp\u003e$$\u003cbr /\u003e\neucdist((x_1,y_1),(x_2,y_2)) \u003d \\sqrt{ (x_1 - x_2)^2 + (y_1 - y_2)^2  }\u003cbr /\u003e\n$$\u003c/p\u003e\n\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eTODO 2\u003c/h2\u003e\n\u003cp\u003e\u003cstrong\u003e[CODE CHANGE REQUIRED]\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eComplete the following function \u003ccode\u003eeuc_dist\u003c/code\u003e which compute the euclidean distance between two points\u003c/p\u003e\n\u003cp\u003e$$\u003cbr /\u003e\neucdist((x_1,y_1),(x_2,y_2)) \u003d \\sqrt{ (x_1 - x_2)^2 + (y_1 - y_2)^2  }\u003cbr /\u003e\n$$\u003c/p\u003e\n\n\u003c/div\u003e"
           }
         ]
       },
@@ -547,8 +547,8 @@
       "jobName": "paragraph_1605147591353_1168952124",
       "id": "paragraph_1604472756075_825467179",
       "dateCreated": "2020-11-12 10:19:51.353",
-      "dateStarted": "2020-11-13 14:04:50.180",
-      "dateFinished": "2020-11-13 14:04:50.187",
+      "dateStarted": "2020-11-13 15:32:27.591",
+      "dateFinished": "2020-11-13 15:32:27.595",
       "status": "FINISHED"
     },
     {
@@ -658,9 +658,9 @@
       "status": "FINISHED"
     },
     {
-      "text": "%md \n\n## TODO 3 \n **[CODE CHANGE REQUIRED]**\n \nComplete the following function which computes the mean of of an iterator/list of points.\n\n\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\n`mean()` functions takes a plain python iterator of points, not an RDD of points.\nThe mean of two points are defined as \n\n$$\nmean((x_1,y_1),(x_2,y_2)) \u003d (( x_1 + x_2) / 2, (y_1 + y_2) / 2)\n$$\n\n",
+      "text": "%md \n\n## TODO 3 \n **[CODE CHANGE REQUIRED]**\n \nComplete the following function which computes the mean of of an iterator/list of points.\n\n`mean()` functions takes a plain python iterator of points, not an RDD of points.\nThe mean of two points are defined as \n\n$$\nmean((x_1,y_1),(x_2,y_2)) \u003d (( x_1 + x_2) / 2, (y_1 + y_2) / 2)\n$$\n\n",
       "user": "anonymous",
-      "dateUpdated": "2020-11-13 14:04:57.721",
+      "dateUpdated": "2020-11-13 15:32:17.128",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -685,7 +685,7 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eTODO 3\u003c/h2\u003e\n\u003cp\u003e\u003cstrong\u003e[CODE CHANGE REQUIRED]\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eComplete the following function which computes the mean of of an iterator/list of points.\u003c/p\u003e\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\u003cp\u003e\u003ccode\u003emean()\u003c/code\u003e functions takes a plain python iterator of points, not an RDD of points.\u003cbr /\u003e\nThe mean of two points are defined as\u003c/p\u003e\n\u003cp\u003e$$\u003cbr /\u003e\nmean((x_1,y_1),(x_2,y_2)) \u003d (( x_1 + x_2) / 2, (y_1 + y_2) / 2)\u003cbr /\u003e\n$$\u003c/p\u003e\n\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eTODO 3\u003c/h2\u003e\n\u003cp\u003e\u003cstrong\u003e[CODE CHANGE REQUIRED]\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eComplete the following function which computes the mean of of an iterator/list of points.\u003c/p\u003e\n\u003cp\u003e\u003ccode\u003emean()\u003c/code\u003e functions takes a plain python iterator of points, not an RDD of points.\u003cbr /\u003e\nThe mean of two points are defined as\u003c/p\u003e\n\u003cp\u003e$$\u003cbr /\u003e\nmean((x_1,y_1),(x_2,y_2)) \u003d (( x_1 + x_2) / 2, (y_1 + y_2) / 2)\u003cbr /\u003e\n$$\u003c/p\u003e\n\n\u003c/div\u003e"
           }
         ]
       },
@@ -695,8 +695,8 @@
       "jobName": "paragraph_1605147591353_382683389",
       "id": "paragraph_1604911428871_779336258",
       "dateCreated": "2020-11-12 10:19:51.353",
-      "dateStarted": "2020-11-13 14:04:57.722",
-      "dateFinished": "2020-11-13 14:04:57.729",
+      "dateStarted": "2020-11-13 15:32:17.129",
+      "dateFinished": "2020-11-13 15:32:17.133",
       "status": "FINISHED"
     },
     {
@@ -806,9 +806,9 @@
       "status": "FINISHED"
     },
     {
-      "text": "%md\n\n## TODO 4\n **[CODE CHANGE REQUIRED]**\nComplete the following function which finds the nearest centroids for each points in the RDD.\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\nLet `r1` and `r2` be RDDs, `r1.cartesion(r2)` produces the cartesian product of r1 and r2. \nWhen finding the nearest centroid w.r.t to a point from a list of centroids, it is useful to think of it as a `reduce` operation.\n",
+      "text": "%md\n\n## TODO 4\n **[CODE CHANGE REQUIRED]**\nComplete the following function which finds the nearest centroids for each points in the RDD.\n\u003cstyle\u003e\n    div.hidecode + {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\n```text\nLet r1 and r2 be RDDs, r1.cartesion(r2) produces the cartesian product of r1 and r2. \nWhen finding the nearest centroid w.r.t to a point from a list of centroids, it is useful to think of it as a reduce operation.\n```\n",
       "user": "anonymous",
-      "dateUpdated": "2020-11-13 14:05:03.589",
+      "dateUpdated": "2020-11-13 15:30:52.684",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -833,7 +833,7 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eTODO 4\u003c/h2\u003e\n\u003cp\u003e\u003cstrong\u003e[CODE CHANGE REQUIRED]\u003c/strong\u003e\u003cbr /\u003e\nComplete the following function which finds the nearest centroids for each points in the RDD.\u003c/p\u003e\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\u003cp\u003eLet \u003ccode\u003er1\u003c/code\u003e and \u003ccode\u003er2\u003c/code\u003e be RDDs, \u003ccode\u003er1.cartesion(r2)\u003c/code\u003e produces the cartesian product of r1 and r2.\u003cbr /\u003e\nWhen finding the nearest centroid w.r.t to a point from a list of centroids, it is useful to think of it as a \u003ccode\u003ereduce\u003c/code\u003e operation.\u003c/p\u003e\n\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eTODO 4\u003c/h2\u003e\n\u003cp\u003e\u003cstrong\u003e[CODE CHANGE REQUIRED]\u003c/strong\u003e\u003cbr /\u003e\nComplete the following function which finds the nearest centroids for each points in the RDD.\u003c/p\u003e\n\u003cstyle\u003e\n    div.hidecode + {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\u003cpre\u003e\u003ccode class\u003d\"language-text\"\u003eLet r1 and r2 be RDDs, r1.cartesion(r2) produces the cartesian product of r1 and r2. \nWhen finding the nearest centroid w.r.t to a point from a list of centroids, it is useful to think of it as a reduce operation.\n\u003c/code\u003e\u003c/pre\u003e\n\n\u003c/div\u003e"
           }
         ]
       },
@@ -843,8 +843,8 @@
       "jobName": "paragraph_1605147591353_125290921",
       "id": "paragraph_1604925533567_2073844019",
       "dateCreated": "2020-11-12 10:19:51.353",
-      "dateStarted": "2020-11-13 14:05:03.590",
-      "dateFinished": "2020-11-13 14:05:03.596",
+      "dateStarted": "2020-11-13 15:30:52.684",
+      "dateFinished": "2020-11-13 15:30:52.688",
       "status": "FINISHED"
     },
     {
@@ -967,9 +967,9 @@
       "status": "FINISHED"
     },
     {
-      "text": "%md\n\n## TODO 5\n\n **[CODE CHANGE REQUIRED]**\n\nComplete the following function which executes one iteration of the K-Means algorithm.\n\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\nRecall the difference between `reduceByKey` and `groupByKey`",
+      "text": "%md\n\n## TODO 5\n\n **[CODE CHANGE REQUIRED]**\n\nComplete the following function which executes one iteration of the K-Means algorithm.\n\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\n```text\nRecall the difference between reduceByKey and groupByKey\n```",
       "user": "anonymous",
-      "dateUpdated": "2020-11-13 14:05:09.338",
+      "dateUpdated": "2020-11-13 15:31:24.891",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -994,7 +994,7 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eTODO 5\u003c/h2\u003e\n\u003cp\u003e\u003cstrong\u003e[CODE CHANGE REQUIRED]\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eComplete the following function which executes one iteration of the K-Means algorithm.\u003c/p\u003e\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\u003cp\u003eRecall the difference between \u003ccode\u003ereduceByKey\u003c/code\u003e and \u003ccode\u003egroupByKey\u003c/code\u003e\u003c/p\u003e\n\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eTODO 5\u003c/h2\u003e\n\u003cp\u003e\u003cstrong\u003e[CODE CHANGE REQUIRED]\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eComplete the following function which executes one iteration of the K-Means algorithm.\u003c/p\u003e\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\u003cpre\u003e\u003ccode class\u003d\"language-text\"\u003eRecall the difference between reduceByKey and groupByKey\n\u003c/code\u003e\u003c/pre\u003e\n\n\u003c/div\u003e"
           }
         ]
       },
@@ -1004,8 +1004,8 @@
       "jobName": "paragraph_1605147591354_1249825011",
       "id": "paragraph_1604925769574_1522232337",
       "dateCreated": "2020-11-12 10:19:51.354",
-      "dateStarted": "2020-11-13 14:05:09.338",
-      "dateFinished": "2020-11-13 14:05:09.344",
+      "dateStarted": "2020-11-13 15:31:24.892",
+      "dateFinished": "2020-11-13 15:31:24.896",
       "status": "FINISHED"
     },
     {
@@ -1173,9 +1173,9 @@
       "status": "FINISHED"
     },
     {
-      "text": "%md\n### TODO 6\n\nComplete the `forAll` function. You don\u0027t need to change `no_change` function. \n\n **[CODE CHANGE REQUIRED]**\n\nComplete the following function which executes one iteration of the K-Means algorithm.\n\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\nYou can implement it using \n\n1. the `aggregate` function or\n2. `map` and `reduce` functions.\n",
+      "text": "%md\n### TODO 6\n\nComplete the `forAll` function. You don\u0027t need to change `no_change` function. \n\n **[CODE CHANGE REQUIRED]**\n\nComplete the following function which executes one iteration of the K-Means algorithm.\n\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\n```text\nYou can implement it using \n\n1. the aggregate function or\n2. map and reduce functions.\n\n```\n",
       "user": "anonymous",
-      "dateUpdated": "2020-11-13 14:05:16.381",
+      "dateUpdated": "2020-11-13 15:31:50.418",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -1200,7 +1200,7 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eTODO 6\u003c/h3\u003e\n\u003cp\u003eComplete the \u003ccode\u003eforAll\u003c/code\u003e function. You don\u0026rsquo;t need to change \u003ccode\u003eno_change\u003c/code\u003e function.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e[CODE CHANGE REQUIRED]\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eComplete the following function which executes one iteration of the K-Means algorithm.\u003c/p\u003e\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\u003cp\u003eYou can implement it using\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003ethe \u003ccode\u003eaggregate\u003c/code\u003e function or\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003emap\u003c/code\u003e and \u003ccode\u003ereduce\u003c/code\u003e functions.\u003c/li\u003e\n\u003c/ol\u003e\n\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eTODO 6\u003c/h3\u003e\n\u003cp\u003eComplete the \u003ccode\u003eforAll\u003c/code\u003e function. You don\u0026rsquo;t need to change \u003ccode\u003eno_change\u003c/code\u003e function.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e[CODE CHANGE REQUIRED]\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eComplete the following function which executes one iteration of the K-Means algorithm.\u003c/p\u003e\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\u003cpre\u003e\u003ccode class\u003d\"language-text\"\u003eYou can implement it using \n\n1. the aggregate function or\n2. map and reduce functions.\n\n\u003c/code\u003e\u003c/pre\u003e\n\n\u003c/div\u003e"
           }
         ]
       },
@@ -1210,8 +1210,8 @@
       "jobName": "paragraph_1605242726423_664724582",
       "id": "paragraph_1605242726423_664724582",
       "dateCreated": "2020-11-13 12:45:26.423",
-      "dateStarted": "2020-11-13 14:05:16.381",
-      "dateFinished": "2020-11-13 14:05:16.387",
+      "dateStarted": "2020-11-13 15:31:50.418",
+      "dateFinished": "2020-11-13 15:31:50.422",
       "status": "FINISHED"
     },
     {

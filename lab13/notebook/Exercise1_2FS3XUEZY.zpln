@@ -249,9 +249,9 @@
       "status": "FINISHED"
     },
     {
-      "text": "%md\n**[CODE CHANGE REQUIRED]** \nComplete the following PySpark script so that it performs the above-mentioned transformation.\n\n\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\nLet `r` be an RDD, `r.map(f)` applies `f` to all elements in `r` and return a new RDD.\n`r.filter(p)` fitlers out elements `e` from `r` that satisfying `p(e)`.\n`r.saveAsTextFile(\"hdfs://...\")` will save an RDD into hdfs.",
+      "text": "%md\n**[CODE CHANGE REQUIRED]** \n\nComplete the following PySpark script so that it performs the above-mentioned transformation.\n\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\n```text\nLet r be an RDD, r.map(f) applies f to all elements in r and return a new RDD.\nr.filter(p) fitlers out elements e from r that satisfying p(e).\nr.saveAsTextFile(\"hdfs://...\") will save an RDD into hdfs.\n```",
       "user": "anonymous",
-      "dateUpdated": "2020-11-13 13:42:27.985",
+      "dateUpdated": "2020-11-13 15:35:34.793",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -276,7 +276,7 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003e\u003cstrong\u003e[CODE CHANGE REQUIRED]\u003c/strong\u003e\u003cbr /\u003e\nComplete the following PySpark script so that it performs the above-mentioned transformation.\u003c/p\u003e\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\u003cp\u003eLet \u003ccode\u003er\u003c/code\u003e be an RDD, \u003ccode\u003er.map(f)\u003c/code\u003e applies \u003ccode\u003ef\u003c/code\u003e to all elements in \u003ccode\u003er\u003c/code\u003e and return a new RDD.\u003cbr /\u003e\n\u003ccode\u003er.filter(p)\u003c/code\u003e fitlers out elements \u003ccode\u003ee\u003c/code\u003e from \u003ccode\u003er\u003c/code\u003e that satisfying \u003ccode\u003ep(e)\u003c/code\u003e.\u003cbr /\u003e\n\u003ccode\u003er.saveAsTextFile(\u0026quot;hdfs://...\u0026quot;)\u003c/code\u003e will save an RDD into hdfs.\u003c/p\u003e\n\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003e\u003cstrong\u003e[CODE CHANGE REQUIRED]\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eComplete the following PySpark script so that it performs the above-mentioned transformation.\u003c/p\u003e\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\u003cpre\u003e\u003ccode class\u003d\"language-text\"\u003eLet r be an RDD, r.map(f) applies f to all elements in r and return a new RDD.\nr.filter(p) fitlers out elements e from r that satisfying p(e).\nr.saveAsTextFile(\u0026quot;hdfs://...\u0026quot;) will save an RDD into hdfs.\n\u003c/code\u003e\u003c/pre\u003e\n\n\u003c/div\u003e"
           }
         ]
       },
@@ -286,8 +286,8 @@
       "jobName": "paragraph_1605149080983_1581046384",
       "id": "paragraph_1605149080983_1581046384",
       "dateCreated": "2020-11-12 10:44:40.983",
-      "dateStarted": "2020-11-13 13:42:27.986",
-      "dateFinished": "2020-11-13 13:42:27.989",
+      "dateStarted": "2020-11-13 15:35:34.794",
+      "dateFinished": "2020-11-13 15:35:34.798",
       "status": "FINISHED"
     },
     {
@@ -404,15 +404,6 @@
         "params": {},
         "forms": {}
       },
-      "results": {
-        "code": "SUCCESS",
-        "msg": [
-          {
-            "type": "TEXT",
-            "data": "20/11/12 18:51:34 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\n124\t253\n145\t255\n5\t63\n1\t168\n121\t254\n166\t222\n178\t255\n7\t176\n68\t45\n64\t191\n26\t240\n42\t228\n62\t254\n85\t255\n94\t132\n32\t253\n39\t254\n58\t139\n28\t247\n114\t206\n73\t253\n85\t253\n15\t200\n202\t253\n73\t253\n111\t255\n29\t197\n31\t210\n159\t255\n53\t250\n255\t253\n24\t150\n155\t253\n102\t252\n20\t254\n166\t255\n117\t128\n159\t142\n101\t222\n232\t255\n63\t128\n131\t255\n226\t247\n166\t253\n17\t206\n218\t253\n102\t180\n134\t230\n29\t85\n149\t255\n79\t203\n94\t254\n42\t232\n60\t229\n11\t150\n218\t170\n116\t255\n"
-          }
-        ]
-      },
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
@@ -443,15 +434,6 @@
       "settings": {
         "params": {},
         "forms": {}
-      },
-      "results": {
-        "code": "SUCCESS",
-        "msg": [
-          {
-            "type": "TEXT",
-            "data": "20/11/12 18:51:55 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\n51\t159\n64\t253\n53\t255\n73\t253\n46\t105\n56\t105\n21\t176\n29\t170\n203\t254\n62\t91\n28\t195\n8\t76\n68\t254\n59\t55\n13\t6\n28\t164\n105\t255\n22\t183\n32\t57\n42\t235\n70\t255\n92\t191\n63\t176\n12\t136\n23\t167\n120\t253\n88\t127\n37\t141\n32\t134\n20\t121\n40\t37\n66\t254\n41\t254\n56\t247\n19\t164\n57\t255\n12\t105\n87\t208\n46\t105\n45\t254\n218\t253\n60\t96\n32\t202\n"
-          }
-        ]
       },
       "apps": [],
       "runtimeInfos": {},

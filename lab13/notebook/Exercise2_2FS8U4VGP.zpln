@@ -304,9 +304,9 @@
       "status": "FINISHED"
     },
     {
-      "text": "%md\n### Define `tf`\n**[CODE CHANGE REQUIRED]** \nComplete the following snippet to define `tf`\n\n\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\n`tf` is the same as word count",
+      "text": "%md\n### Define `tf`\n**[CODE CHANGE REQUIRED]** \nComplete the following snippet to define `tf`\n\n\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\n```text\ntf is the same as word count\n```",
       "user": "anonymous",
-      "dateUpdated": "2020-11-13 14:06:09.665",
+      "dateUpdated": "2020-11-13 15:33:01.870",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -331,7 +331,7 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eDefine \u003ccode\u003etf\u003c/code\u003e\u003c/h3\u003e\n\u003cp\u003e\u003cstrong\u003e[CODE CHANGE REQUIRED]\u003c/strong\u003e\u003cbr /\u003e\nComplete the following snippet to define \u003ccode\u003etf\u003c/code\u003e\u003c/p\u003e\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\u003cp\u003e\u003ccode\u003etf\u003c/code\u003e is the same as word count\u003c/p\u003e\n\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eDefine \u003ccode\u003etf\u003c/code\u003e\u003c/h3\u003e\n\u003cp\u003e\u003cstrong\u003e[CODE CHANGE REQUIRED]\u003c/strong\u003e\u003cbr /\u003e\nComplete the following snippet to define \u003ccode\u003etf\u003c/code\u003e\u003c/p\u003e\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\u003cpre\u003e\u003ccode class\u003d\"language-text\"\u003etf is the same as word count\n\u003c/code\u003e\u003c/pre\u003e\n\n\u003c/div\u003e"
           }
         ]
       },
@@ -341,8 +341,8 @@
       "jobName": "paragraph_1605234231611_806747453",
       "id": "paragraph_1605234231611_806747453",
       "dateCreated": "2020-11-13 10:23:51.611",
-      "dateStarted": "2020-11-13 14:06:09.665",
-      "dateFinished": "2020-11-13 14:06:09.670",
+      "dateStarted": "2020-11-13 15:33:01.870",
+      "dateFinished": "2020-11-13 15:33:01.874",
       "status": "FINISHED"
     },
     {
@@ -450,9 +450,9 @@
       "status": "FINISHED"
     },
     {
-      "text": "%md\n\n### Define `df`\n\n**[CODE CHANGE REQUIRED]** \n\nComplete the following snippet to define `df`\n\n\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\n`df` differs from `tf` with a little bit. Instead of outputting (word,1) for every word in a tweet directly, we should remove the duplicating words (within the same tweet) first.",
+      "text": "%md\n\n### Define `df`\n\n**[CODE CHANGE REQUIRED]** \n\nComplete the following snippet to define `df`\n\n\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\n```text\ndf differs from tf with a little bit. Instead of outputting (word,1) for every word in a tweet directly, we should remove the duplicating words (within the same tweet) first.\n```",
       "user": "anonymous",
-      "dateUpdated": "2020-11-13 14:06:15.145",
+      "dateUpdated": "2020-11-13 15:33:21.138",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -477,7 +477,7 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eDefine \u003ccode\u003edf\u003c/code\u003e\u003c/h3\u003e\n\u003cp\u003e\u003cstrong\u003e[CODE CHANGE REQUIRED]\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eComplete the following snippet to define \u003ccode\u003edf\u003c/code\u003e\u003c/p\u003e\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\u003cp\u003e\u003ccode\u003edf\u003c/code\u003e differs from \u003ccode\u003etf\u003c/code\u003e with a little bit. Instead of outputting (word,1) for every word in a tweet directly, we should remove the duplicating words (within the same tweet) first.\u003c/p\u003e\n\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eDefine \u003ccode\u003edf\u003c/code\u003e\u003c/h3\u003e\n\u003cp\u003e\u003cstrong\u003e[CODE CHANGE REQUIRED]\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eComplete the following snippet to define \u003ccode\u003edf\u003c/code\u003e\u003c/p\u003e\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\u003cpre\u003e\u003ccode class\u003d\"language-text\"\u003edf differs from tf with a little bit. Instead of outputting (word,1) for every word in a tweet directly, we should remove the duplicating words (within the same tweet) first.\n\u003c/code\u003e\u003c/pre\u003e\n\n\u003c/div\u003e"
           }
         ]
       },
@@ -487,8 +487,8 @@
       "jobName": "paragraph_1605234282079_479103327",
       "id": "paragraph_1605234282079_479103327",
       "dateCreated": "2020-11-13 10:24:42.080",
-      "dateStarted": "2020-11-13 14:06:15.145",
-      "dateFinished": "2020-11-13 14:06:15.150",
+      "dateStarted": "2020-11-13 15:33:21.138",
+      "dateFinished": "2020-11-13 15:33:21.142",
       "status": "FINISHED"
     },
     {
@@ -596,9 +596,9 @@
       "status": "FINISHED"
     },
     {
-      "text": "%md\n\n### Define `tfidf`\n\n**[CODE CHANGE REQUIRED]** \n\nComplete the following snippet to define `tfidf`\n\n\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\nLet `r` be an RDD. `r.count()` returns the size of `r`.\nLet `r1`, `r2` be RDDs of key-value pairs. `r1.join(r2)` joins two RDDs by keys.",
+      "text": "%md\n\n### Define `tfidf`\n\n**[CODE CHANGE REQUIRED]** \n\nComplete the following snippet to define `tfidf`\n\n\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\n```text\nLet r be an RDD. r.count() returns the size of r.\nLet r1, r2 be RDDs of key-value pairs. r1.join(r2) joins two RDDs by keys.\n```",
       "user": "anonymous",
-      "dateUpdated": "2020-11-13 14:06:21.197",
+      "dateUpdated": "2020-11-13 15:34:03.149",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -623,7 +623,7 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eDefine \u003ccode\u003etfidf\u003c/code\u003e\u003c/h3\u003e\n\u003cp\u003e\u003cstrong\u003e[CODE CHANGE REQUIRED]\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eComplete the following snippet to define \u003ccode\u003etfidf\u003c/code\u003e\u003c/p\u003e\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\u003cp\u003eLet \u003ccode\u003er\u003c/code\u003e be an RDD. \u003ccode\u003er.count()\u003c/code\u003e returns the size of \u003ccode\u003er\u003c/code\u003e.\u003cbr /\u003e\nLet \u003ccode\u003er1\u003c/code\u003e, \u003ccode\u003er2\u003c/code\u003e be RDDs of key-value pairs. \u003ccode\u003er1.join(r2)\u003c/code\u003e joins two RDDs by keys.\u003c/p\u003e\n\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eDefine \u003ccode\u003etfidf\u003c/code\u003e\u003c/h3\u003e\n\u003cp\u003e\u003cstrong\u003e[CODE CHANGE REQUIRED]\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eComplete the following snippet to define \u003ccode\u003etfidf\u003c/code\u003e\u003c/p\u003e\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\u003cpre\u003e\u003ccode class\u003d\"language-text\"\u003eLet r be an RDD. r.count() returns the size of r.\nLet r1, r2 be RDDs of key-value pairs. r1.join(r2) joins two RDDs by keys.\n\u003c/code\u003e\u003c/pre\u003e\n\n\u003c/div\u003e"
           }
         ]
       },
@@ -633,8 +633,8 @@
       "jobName": "paragraph_1605234414509_1351659785",
       "id": "paragraph_1605234414509_1351659785",
       "dateCreated": "2020-11-13 10:26:54.509",
-      "dateStarted": "2020-11-13 14:06:21.198",
-      "dateFinished": "2020-11-13 14:06:21.203",
+      "dateStarted": "2020-11-13 15:34:03.150",
+      "dateFinished": "2020-11-13 15:34:03.154",
       "status": "FINISHED"
     },
     {
@@ -1067,9 +1067,9 @@
       "status": "FINISHED"
     },
     {
-      "text": "%md \n\n## Defining `computeLP`\n**[CODE CHANGE REQUIRED]** \nComplete the following snippet.\n\nConcretely speaking, the `computeLP` function takes a label `1.0` or `0.0`, a sequence of string i.e. the 2-grams or 3-grams, and a array of top-N TF-IDF.\n\nFor each tf-idf term, let\u0027s say `t` is the i-th top-N TF-IDF term, if `t` is in the sequence of strings, we should put a `1.0` at the i-th position of the output vector, otherwise it should be `0.0`.\n\n\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\nConvert all the words in the input text into a set instead of a list.\nThe output vector should be of the same dimension as `topTerms` (AKA top 150 TFIDF).",
+      "text": "%md \n\n## Defining `computeLP`\n**[CODE CHANGE REQUIRED]** \nComplete the following snippet.\n\nConcretely speaking, the `computeLP` function takes a label `1.0` or `0.0`, a sequence of string i.e. the 2-grams or 3-grams, and a array of top-N TF-IDF.\n\nFor each tf-idf term, let\u0027s say `t` is the i-th top-N TF-IDF term, if `t` is in the sequence of strings, we should put a `1.0` at the i-th position of the output vector, otherwise it should be `0.0`.\n\n\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\n```text\nConvert all the words in the input text into a set instead of a list.\nThe output vector should be of the same dimension as topTerms (AKA top 150 TFIDF).\n```",
       "user": "anonymous",
-      "dateUpdated": "2020-11-13 14:06:39.162",
+      "dateUpdated": "2020-11-13 15:34:31.726",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -1094,7 +1094,7 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eDefining \u003ccode\u003ecomputeLP\u003c/code\u003e\u003c/h2\u003e\n\u003cp\u003e\u003cstrong\u003e[CODE CHANGE REQUIRED]\u003c/strong\u003e\u003cbr /\u003e\nComplete the following snippet.\u003c/p\u003e\n\u003cp\u003eConcretely speaking, the \u003ccode\u003ecomputeLP\u003c/code\u003e function takes a label \u003ccode\u003e1.0\u003c/code\u003e or \u003ccode\u003e0.0\u003c/code\u003e, a sequence of string i.e. the 2-grams or 3-grams, and a array of top-N TF-IDF.\u003c/p\u003e\n\u003cp\u003eFor each tf-idf term, let\u0026rsquo;s say \u003ccode\u003et\u003c/code\u003e is the i-th top-N TF-IDF term, if \u003ccode\u003et\u003c/code\u003e is in the sequence of strings, we should put a \u003ccode\u003e1.0\u003c/code\u003e at the i-th position of the output vector, otherwise it should be \u003ccode\u003e0.0\u003c/code\u003e.\u003c/p\u003e\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\u003cp\u003eConvert all the words in the input text into a set instead of a list.\u003cbr /\u003e\nThe output vector should be of the same dimension as \u003ccode\u003etopTerms\u003c/code\u003e (AKA top 150 TFIDF).\u003c/p\u003e\n\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eDefining \u003ccode\u003ecomputeLP\u003c/code\u003e\u003c/h2\u003e\n\u003cp\u003e\u003cstrong\u003e[CODE CHANGE REQUIRED]\u003c/strong\u003e\u003cbr /\u003e\nComplete the following snippet.\u003c/p\u003e\n\u003cp\u003eConcretely speaking, the \u003ccode\u003ecomputeLP\u003c/code\u003e function takes a label \u003ccode\u003e1.0\u003c/code\u003e or \u003ccode\u003e0.0\u003c/code\u003e, a sequence of string i.e. the 2-grams or 3-grams, and a array of top-N TF-IDF.\u003c/p\u003e\n\u003cp\u003eFor each tf-idf term, let\u0026rsquo;s say \u003ccode\u003et\u003c/code\u003e is the i-th top-N TF-IDF term, if \u003ccode\u003et\u003c/code\u003e is in the sequence of strings, we should put a \u003ccode\u003e1.0\u003c/code\u003e at the i-th position of the output vector, otherwise it should be \u003ccode\u003e0.0\u003c/code\u003e.\u003c/p\u003e\n\u003cstyle\u003e\n    div.hidecode + pre {display: none}\n\u003c/style\u003e\n\u003cscript\u003e\ndoclick\u003dfunction(e) {\n    e.nextSibling.nextSibling.style.display\u003d\"block\";\n}\n\u003c/script\u003e\n\u003cdiv class\u003d\"hidecode\" onclick\u003d\"doclick(this);\"\u003e[Show Hint]\u003c/div\u003e\n\u003cpre\u003e\u003ccode class\u003d\"language-text\"\u003eConvert all the words in the input text into a set instead of a list.\nThe output vector should be of the same dimension as topTerms (AKA top 150 TFIDF).\n\u003c/code\u003e\u003c/pre\u003e\n\n\u003c/div\u003e"
           }
         ]
       },
@@ -1104,8 +1104,8 @@
       "jobName": "paragraph_1605239798765_1070077038",
       "id": "paragraph_1605239798765_1070077038",
       "dateCreated": "2020-11-13 11:56:38.765",
-      "dateStarted": "2020-11-13 14:06:39.163",
-      "dateFinished": "2020-11-13 14:06:39.167",
+      "dateStarted": "2020-11-13 15:34:31.726",
+      "dateFinished": "2020-11-13 15:34:31.732",
       "status": "FINISHED"
     },
     {
